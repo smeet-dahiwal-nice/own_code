@@ -1,118 +1,113 @@
-#release value shoudl be [<if current year is 2024, consider 24>.<sprint no>.WCX ]
-# Phase1 corresponds to group1.yaml Products and Phase2 corresponds to group2.yaml Products.
-
-release: "[26.181-IC]"
-
+release: '[26.181-IC]'
 deploymentPhase:
-  - name: Phase1
-    env1-group:
-      names:
-        - ic-perf
-        - perf-dst-msk
-      startDate: "2025-10-22 03:30:00"
-      endDate: "2025-10-22 06:30:00"
-      deployer: "Prachi Kondekar"
-    env2-group:
-      names:
-        - ic-staging
-        - staging-dst-msk
-      startDate: "2025-10-28 04:00:00"
-      endDate: "2025-10-28 07:00:00"
-      deployer: "Prachi Kondekar"
-    env3-group:
-      names:
-        - ic-prod
-        - ic-prod-fedramp  
-        - prod-dst-msk
-        - prod-na2-dst-msk
-      startDate: "2025-11-05 06:00:00"
-      endDate: "2025-11-05 09:00:00"
-      deployer: "Prachi Kondekar"
-    env4-group:
-      names:
-        - ic-prod-ca
-        - prod-ca-dst-msk
-      startDate: "2025-11-03 06:00:00"
-      endDate: "2025-11-03 09:00:00"
-      deployer: "Prachi Kondekar"
-    env5-group:
-      names:
-        - ic-prod-uk
-        - ic-prod-de
-        - prod-uk-dst-msk
-        - prod-de-dst-msk
-      startDate: "2025-11-03 22:00:00"
-      endDate: "2025-11-04 01:00:00"
-      deployer: "Prachi Kondekar"
-    env6-group:
-      names:
-        - ic-prod-au
-        - prod-au-dst-msk
-      startDate: "2025-11-06 15:00:00"
-      endDate: "2025-11-06 18:00:00"
-      deployer: "Prachi Kondekar"
-    env7-group:
-      names:
-        - ic-prod-jp   
-        - prod-jp-dst-msk   
-      startDate: "2025-11-05 15:00:00"
-      endDate: "2025-11-05 18:00:00"
-      deployer: "Prachi Kondekar"
-    env8-group:
-      names:
-        - ic-prod-jo
-        - ic-prod-kr
-        - prod-jo-dst-msk
-        - prod-kr-dst-msk
-      startDate: "2025-11-04 15:00:00"
-      endDate: "2025-11-04 18:00:00"
-      deployer: "Prachi Kondekar"
-    env9-group:
-      names:
-        - ic-prod-ae
-        - prod-ae-dst-msk
-      startDate: "2025-11-03 20:00:00"
-      endDate: "2025-11-03 23:00:00"
-      deployer: "Prachi Kondekar"
-    env10-group:
-      names:
-        - ic-prod-eusov1
-        - ic-prod-uksov1
-        - prod-eusov1-dst-msk
-        - prod-uksov1-dst-msk
-      startDate: "2025-11-04 22:00:00"
-      endDate: "2025-11-05 01:00:00"
-      deployer: "Prachi Kondekar"
-    env11-group:
-      names:
-        - ic-prod-ausov1
-        - prod-ausov1-dst-msk
-      startDate: "2025-11-03 15:00:00"
-      endDate: "2025-11-03 18:00:00"
-      deployer: "Prachi Kondekar" 
-    env12-group:
-      names:
-        - ic-prod-iesov1
-      startDate: "2025-09-30 22:00:00"
-      endDate: "2025-10-01 01:00:00"
-      deployer: "Prachi Kondekar" 
-    env13-group:
-      names:
-        - ic-prod-za
-      startDate: "2025-09-30 14:00:00"
-      endDate: "2025-09-30 18:00:00"
-      deployer: "Prachi Kondekar" 
-
-  - name: Phase2
-    env1-group:
-      names:
-        - ic-perf
-      startDate: "2025-09-01 06:00:00"
-      endDate: "2025-09-01 10:00:00"
-      deployer: "Ankur Jain"
-    env2-group:
-      names:
-        - ic-staging
-      startDate: "2025-09-02 06:00:00"
-      endDate: "2025-09-02 10:00:00"
-      deployer: "Ankur Jain"
+- name: Phase1
+  env1-group:
+    names:
+    - ic-perf
+    - perf-dst-msk
+    startDate: '2026-01-12 08:00:00'
+    endDate: '2026-01-12 11:00:00'
+    deployer: Prachi Kondekar
+  env2-group:
+    names:
+    - ic-staging
+    - staging-dst-msk
+    startDate: '2026-01-12 00:00:00'
+    endDate: '2026-01-12 03:00:00'
+    deployer: Prachi Kondekar
+  env3-group:
+    names:
+    - ic-prod
+    - ic-prod-fedramp
+    - prod-dst-msk
+    - prod-na2-dst-msk
+    startDate: '2026-01-12 13:00:00'
+    endDate: '2026-01-12 16:00:00'
+    deployer: Prachi Kondekar
+  env4-group:
+    names:
+    - ic-prod-ca
+    - prod-ca-dst-msk
+    startDate: '2026-01-12 16:00:00'
+    endDate: '2026-01-12 19:00:00'
+    deployer: Prachi Kondekar
+  env5-group:
+    names:
+    - ic-prod-uk
+    - ic-prod-de
+    - prod-uk-dst-msk
+    - prod-de-dst-msk
+    startDate: '2026-01-14 00:00:00'
+    endDate: '2026-01-14 03:00:00'
+    deployer: Prachi Kondekar
+  env6-group:
+    names:
+    - ic-prod-au
+    - prod-au-dst-msk
+    startDate: '2026-01-15 08:00:00'
+    endDate: '2026-01-15 11:00:00'
+    deployer: Prachi Kondekar
+  env7-group:
+    names:
+    - ic-prod-jp
+    - prod-jp-dst-msk
+    startDate: '2026-01-15 00:00:00'
+    endDate: '2026-01-15 03:00:00'
+    deployer: Prachi Kondekar
+  env8-group:
+    names:
+    - ic-prod-jo
+    - ic-prod-kr
+    - prod-jo-dst-msk
+    - prod-kr-dst-msk
+    startDate: '2026-01-15 16:00:00'
+    endDate: '2026-01-15 19:00:00'
+    deployer: Prachi Kondekar
+  env9-group:
+    names:
+    - ic-prod-ae
+    - prod-ae-dst-msk
+    startDate: '2026-01-17 00:00:00'
+    endDate: '2026-01-17 03:00:00'
+    deployer: Prachi Kondekar
+  env10-group:
+    names:
+    - ic-prod-eusov1
+    - ic-prod-uksov1
+    - prod-eusov1-dst-msk
+    - prod-uksov1-dst-msk
+    startDate: '2026-01-18 00:00:00'
+    endDate: '2026-01-18 03:00:00'
+    deployer: Prachi Kondekar
+  env11-group:
+    names:
+    - ic-prod-ausov1
+    - prod-ausov1-dst-msk
+    startDate: '2026-01-18 14:00:00'
+    endDate: '2026-01-18 17:00:00'
+    deployer: Prachi Kondekar
+  env12-group:
+    names:
+    - ic-prod-iesov1
+    startDate: '2025-09-30 22:00:00'
+    endDate: '2025-10-01 01:00:00'
+    deployer: Prachi Kondekar
+  env13-group:
+    names:
+    - ic-prod-za
+    startDate: '2025-09-30 14:00:00'
+    endDate: '2025-09-30 18:00:00'
+    deployer: Prachi Kondekar
+- name: Phase2
+  env1-group:
+    names:
+    - ic-perf
+    startDate: '2025-09-01 06:00:00'
+    endDate: '2025-09-01 10:00:00'
+    deployer: Ankur Jain
+  env2-group:
+    names:
+    - ic-staging
+    startDate: '2025-09-02 06:00:00'
+    endDate: '2025-09-02 10:00:00'
+    deployer: Ankur Jain
