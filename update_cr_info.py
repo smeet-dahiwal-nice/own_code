@@ -1,7 +1,7 @@
 import json
-import yaml
 from datetime import datetime, timedelta
 import pytz
+from ruamel.yaml import YAML
 
 # ---------- CONFIG ----------
 JSON_FILE = "cr_info.json"
@@ -13,6 +13,10 @@ US_MT_TZ = pytz.timezone("US/Mountain")
 DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 # ----------------------------
 
+yaml = YAML()
+yaml.preserve_quotes = True
+yaml.indent(mapping=2, sequence=4, offset=2)
+
 
 def load_json(path):
     with open(path, "r") as f:
@@ -21,17 +25,12 @@ def load_json(path):
 
 def load_yaml(path):
     with open(path, "r") as f:
-        return yaml.safe_load(f)
+        return yaml.load(f)
 
 
 def save_yaml(path, data):
     with open(path, "w") as f:
-        yaml.safe_dump(
-            data,
-            f,
-            sort_keys=False,
-            default_flow_style=False
-        )
+        yaml.dump(data, f)
 
 
 def main():
@@ -62,7 +61,7 @@ def main():
             start_dt_us = start_dt_ist.astimezone(US_MT_TZ)
             end_dt_us = end_dt_ist.astimezone(US_MT_TZ)
 
-            # ---- Write into YAML ----
+            # ---- Update ONLY the required fields ----
             phase[env_group]["startDate"] = start_dt_us.strftime(DATETIME_FORMAT)
             phase[env_group]["endDate"] = end_dt_us.strftime(DATETIME_FORMAT)
 
