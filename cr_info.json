@@ -1,0 +1,10 @@
+{
+  "timezone": "Asia/Kolkata",
+  "deployment_window_hours": 3,
+  "phases": {
+    "Phase1": {
+      "env1-group": "2026-1-12 20:30:00",
+      "env2-group": "2026-1-12 12:30:00"
+    }
+  }
+}
