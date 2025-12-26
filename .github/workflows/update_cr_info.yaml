@@ -1,0 +1,30 @@
+name: Update CR YAML
+
+on:
+  pull_request:
+    paths:
+      - cr_info.json
+
+jobs:
+  update-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pyyaml pytz
+
+      - name: Update YAML
+        run: python update_cr_info.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add cr_info.yaml
+          git commit -m "Auto-update CR deployment times" || echo "No changes"
