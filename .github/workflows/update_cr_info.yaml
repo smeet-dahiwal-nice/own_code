@@ -14,33 +14,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout PR branch (JSON comes from PR)
       - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
+      # 2️⃣ Fetch master branch (for YAML)
+      - name: Fetch master branch
+        run: |
+          git fetch origin master
+
+      # 3️⃣ Load cr_info.yaml from master branch
+      - name: Load cr_info.yaml from master
+        run: |
+          git checkout origin/master -- cr_info.yaml
+
+      # 4️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 5️⃣ Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
+      # 6️⃣ Run update script
       - name: Run update script
         run: |
           python Scripts/update_cr_info.py
 
+      # 7️⃣ Commit & push only cr_info.yaml
       - name: Commit & push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add cr_info.yaml
+
           # Safety check: only cr_info.yaml can change
           git diff --cached --name-only | grep -v '^cr_info.yaml$' && exit 1
+
           git diff --cached --quiet || \
           git commit -m "Auto-update CR deployment dates (US MT)"
 
