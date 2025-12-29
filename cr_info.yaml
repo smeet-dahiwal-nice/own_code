@@ -16,8 +16,8 @@ deploymentPhase:
       names:
         - ic-staging
         - staging-dst-msk
-      startDate: "2026-01-12 00:00:00"
-      endDate: "2026-01-12 03:00:00"
+      startDate: "2026-01-14 00:00:00"
+      endDate: "2026-01-14 03:00:00"
       deployer: "Prachi Kondekar"
     env3-group:
       names:
@@ -107,8 +107,8 @@ deploymentPhase:
     env1-group:
       names:
         - ic-perf
-      startDate: "2026-01-11 13:00:00"
-      endDate: "2026-01-11 16:00:00"
+      startDate: "2026-01-14 13:00:00"
+      endDate: "2026-01-14 16:00:00"
       deployer: "Ankur Jain"
     env2-group:
       names:
