@@ -21,15 +21,15 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      # 2️⃣ Fetch master branch (for YAML)
-      - name: Fetch master branch
+      # 2️⃣ Fetch main branch (for YAML)
+      - name: Fetch main branch
         run: |
-          git fetch origin master
+          git fetch origin main
 
-      # 3️⃣ Load cr_info.yaml from master branch
-      - name: Load cr_info.yaml from master
+      # 3️⃣ Load cr_info.yaml from main branch
+      - name: Load cr_info.yaml from main
         run: |
-          git checkout origin/master -- cr_info.yaml
+          git checkout origin/main -- cr_info.yaml
 
       # 4️⃣ Setup Python
       - name: Setup Python
