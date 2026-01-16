@@ -41,8 +41,8 @@ deploymentPhase:
         - ic-prod-de
         - prod-uk-dst-msk
         - prod-de-dst-msk
-      startDate: "2025-11-03 22:00:00"
-      endDate: "2025-11-04 01:00:00"
+      startDate: "2026-01-15 14:00:00"
+      endDate: "2026-01-15 17:00:00"
       deployer: "Prachi Kondekar"
     env6-group:
       names:
@@ -55,8 +55,8 @@ deploymentPhase:
       names:
         - ic-prod-jp
         - prod-jp-dst-msk
-      startDate: "2025-11-05 15:00:00"
-      endDate: "2025-11-05 18:00:00"
+      startDate: "2026-01-15 14:00:00"
+      endDate: "2026-01-15 17:00:00"
       deployer: "Prachi Kondekar"
     env8-group:
       names:
