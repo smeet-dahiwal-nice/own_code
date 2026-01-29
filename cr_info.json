@@ -3,20 +3,14 @@
   "deployment_window_hours": 3,
   "phases": {
     "Phase1": {
-      "env1-group": "2026-1-12 20:30:00",
-      "env2-group": "2026-1-14 12:30:00",
-      "env3-group": "2026-1-16 02:30:00",
-      "env5-group": "2026-1-16 02:30:00",
-      "env7-group": "2026-1-16 02:30:00"
-
-    },
-  "Phase2": {
-      "env1-group": "2026-1-15 01:30:00"
+      "env1-group": {
+        "start_time": "2026-01-12 20:30:00",
+        "deployer": "Prachi Kondekar"
+      },
+      "env2-group": {
+        "start_time": "2026-01-12 12:30:00",
+        "deployer": "Prachi Kondekar"
+      }
     }
   }
 }
-
-
-
-
-
