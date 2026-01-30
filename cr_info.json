@@ -50,7 +50,7 @@
       },
       "env10-group": {
         "start_time": "2026-01-27 04:30:00",
-        "deployer": "Prachi Kondekar",
+        "deployer": "Smeet Dahiwal",
         "environment": "ic-prod-eusov1, ic-prod-uksov1, prod-eusov1-dst-msk, prod-uksov1-dst-msk"
       },
       "env11-group": {
