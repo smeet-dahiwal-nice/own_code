@@ -9,110 +9,110 @@ deploymentPhase:
       names:
         - ic-perf
         - perf-dst-msk
-      startDate: "2025-10-22 03:30:00"
-      endDate: "2025-10-22 06:30:00"
+      startDate: "2026-01-07 08:00:00"
+      endDate: "2026-01-07 11:00:00"
       deployer: "Prachi Kondekar"
     env2-group:
       names:
         - ic-staging
         - staging-dst-msk
-      startDate: "2025-10-28 04:00:00"
-      endDate: "2025-10-28 07:00:00"
+      startDate: "2026-01-07 00:00:00"
+      endDate: "2026-01-07 03:00:00"
       deployer: "Prachi Kondekar"
     env3-group:
       names:
         - ic-prod
-        - ic-prod-fedramp  
+        - ic-prod-fedramp
         - prod-dst-msk
         - prod-na2-dst-msk
-      startDate: "2025-11-05 06:00:00"
-      endDate: "2025-11-05 09:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-28 00:00:00"
+      endDate: "2026-01-28 03:00:00"
+      deployer: "Ankita Gholap"
     env4-group:
       names:
         - ic-prod-ca
         - prod-ca-dst-msk
-      startDate: "2025-11-03 06:00:00"
-      endDate: "2025-11-03 09:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-26 00:00:00"
+      endDate: "2026-01-26 03:00:00"
+      deployer: "Pranjal Gupta"
     env5-group:
       names:
         - ic-prod-uk
         - ic-prod-de
         - prod-uk-dst-msk
         - prod-de-dst-msk
-      startDate: "2025-11-03 22:00:00"
-      endDate: "2025-11-04 01:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-26 16:00:00"
+      endDate: "2026-01-26 19:00:00"
+      deployer: "Rohit Verma"
     env6-group:
       names:
         - ic-prod-au
         - prod-au-dst-msk
-      startDate: "2025-11-06 15:00:00"
-      endDate: "2025-11-06 18:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-29 08:00:00"
+      endDate: "2026-01-29 11:00:00"
+      deployer: "Revati Sakegaonkar"
     env7-group:
       names:
-        - ic-prod-jp   
-        - prod-jp-dst-msk   
-      startDate: "2025-11-05 15:00:00"
-      endDate: "2025-11-05 18:00:00"
-      deployer: "Prachi Kondekar"
+        - ic-prod-jp
+        - prod-jp-dst-msk
+      startDate: "2026-01-28 08:00:00"
+      endDate: "2026-01-28 11:00:00"
+      deployer: "Varsha Patil"
     env8-group:
       names:
         - ic-prod-jo
         - ic-prod-kr
         - prod-jo-dst-msk
         - prod-kr-dst-msk
-      startDate: "2025-11-04 15:00:00"
-      endDate: "2025-11-04 18:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-28 08:00:00"
+      endDate: "2026-01-28 11:00:00"
+      deployer: "Smeet Dahiwal"
     env9-group:
       names:
         - ic-prod-ae
         - prod-ae-dst-msk
-      startDate: "2025-11-03 20:00:00"
-      endDate: "2025-11-03 23:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2025-01-25 13:00:00"
+      endDate: "2025-01-25 16:00:00"
+      deployer: "Rohit Verma"
     env10-group:
       names:
         - ic-prod-eusov1
         - ic-prod-uksov1
         - prod-eusov1-dst-msk
         - prod-uksov1-dst-msk
-      startDate: "2025-11-04 22:00:00"
-      endDate: "2025-11-05 01:00:00"
-      deployer: "Prachi Kondekar"
+      startDate: "2026-01-26 16:00:00"
+      endDate: "2026-01-26 19:00:00"
+      deployer: "Smeet Dahiwal"
     env11-group:
       names:
         - ic-prod-ausov1
         - prod-ausov1-dst-msk
-      startDate: "2025-11-03 15:00:00"
-      endDate: "2025-11-03 18:00:00"
-      deployer: "Prachi Kondekar" 
+      startDate: "2026-01-27 08:00:00"
+      endDate: "2026-01-27 11:00:00"
+      deployer: "Prachi Kondekar"
     env12-group:
       names:
         - ic-prod-iesov1
-      startDate: "2025-09-30 22:00:00"
-      endDate: "2025-10-01 01:00:00"
-      deployer: "Prachi Kondekar" 
+      startDate: "2026-01-25 16:00:00"
+      endDate: "2026-01-25 19:00:00"
+      deployer: "Prachi Kondekar"
     env13-group:
       names:
         - ic-prod-za
-      startDate: "2025-09-30 14:00:00"
-      endDate: "2025-09-30 18:00:00"
-      deployer: "Prachi Kondekar" 
+      startDate: "2026-01-25 16:00:00"
+      endDate: "2026-01-25 19:00:00"
+      deployer: "Rohit Verma"
 
   - name: Phase2
     env1-group:
       names:
         - ic-perf
-      startDate: "2025-09-01 06:00:00"
+      startDate: "2025-09-01 07:00:00"
       endDate: "2025-09-01 10:00:00"
       deployer: "Ankur Jain"
     env2-group:
       names:
         - ic-staging
-      startDate: "2025-09-02 06:00:00"
+      startDate: "2025-09-02 07:00:00"
       endDate: "2025-09-02 10:00:00"
       deployer: "Ankur Jain"
