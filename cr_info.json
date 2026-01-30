@@ -4,84 +4,82 @@
   "phases": {
     "Phase1": {
       "env1-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-07 20:30:00",
         "deployer": "Prachi Kondekar",
         "environment": "ic-perf, perf-dst-msk"
       },
       "env2-group": {
-        "start_time": "2026-01-12 12:30:00",
+        "start_time": "2026-01-07 12:30:00",
         "deployer": "Prachi Kondekar",
         "environment": "ic-staging, staging-dst-msk"
       },
       "env3-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-28 12:30:00",
         "deployer": "Ankita Gholap",
         "environment": "ic-prod, ic-prod-fedramp, prod-dst-msk, prod-na2-dst-msk"
       },
       "env4-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-26 12:30:00",
         "deployer": "Pranjal Gupta",
         "environment": "ic-prod-ca, prod-ca-dst-msk"
       },
       "env5-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-27 04:30:00",
         "deployer": "Rohit Verma",
         "environment": "ic-prod-uk, ic-prod-de, prod-uk-dst-msk, prod-de-dst-msk"
       },
       "env6-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-29 20:30:00",
         "deployer": "Revati Sakegaonkar",
         "environment": "ic-prod-au, prod-au-dst-msk"
       },
       "env7-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-28 20:30:00",
         "deployer": "Varsha Patil",
         "environment": "ic-prod-jp, prod-jp-dst-msk"
       },
       "env8-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-28 20:30:00",
         "deployer": "Smeet Dahiwal",
         "environment": "ic-prod-jo, ic-prod-kr, prod-jo-dst-msk, prod-kr-dst-msk"
       },
       "env9-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2025-1-26 01:30:00",
         "deployer": "Rohit Verma",
         "environment": "ic-prod-ae, prod-ae-dst-msk"
       },
       "env10-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-27 04:30:00",
         "deployer": "Prachi Kondekar",
         "environment": "ic-prod-eusov1, ic-prod-uksov1, prod-eusov1-dst-msk, prod-uksov1-dst-msk"
       },
       "env11-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-27 20:30:00",
         "deployer": "Prachi Kondekar",
         "environment": "ic-prod-ausov1, prod-ausov1-dst-msk"
       },
       "env12-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-26 04:30:00",
         "deployer": "Prachi Kondekar",
         "environment": "ic-prod-iesov1"
       },
       "env13-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2026-01-26 04:30:00",
         "deployer": "Rohit Verma",
         "environment": "ic-prod-za"
       }
     },
     "Phase2": {
       "env1-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2025-09-01 18:30:00",
         "deployer": "Ankur Jain",
         "environment": "ic-perf"
       },
       "env2-group": {
-        "start_time": "2026-01-12 20:30:00",
+        "start_time": "2025-09-02 18:30:00",
         "deployer": "Ankur Jain",
         "environment": "ic-staging"
       }
     }
   }
 }
-
-
