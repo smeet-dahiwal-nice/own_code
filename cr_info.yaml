@@ -82,7 +82,7 @@ deploymentPhase:
         - prod-uksov1-dst-msk
       startDate: "2026-01-26 16:00:00"
       endDate: "2026-01-26 19:00:00"
-      deployer: "Prachi Kondekar"
+      deployer: "Smeet Dahiwal"
     env11-group:
       names:
         - ic-prod-ausov1
